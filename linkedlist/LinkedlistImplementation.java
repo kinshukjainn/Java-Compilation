@@ -50,13 +50,11 @@ public class LinkedlistImplementation {
             for (int i = 1; i < idx && temp != null; i++) {
                 temp = temp.next;
             }
-
             // Handle cases where index is out of bounds
             if (temp == null) {
                 System.out.println("Wrong idx");
                 return;
             }
-
             Node t = new Node(data);
             t.next = temp.next;
             temp.next = t;
