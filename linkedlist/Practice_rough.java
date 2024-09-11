@@ -1,6 +1,5 @@
 package linkedlist;
 
-
 public class Practice_rough {
 
     public static class Node { 
